@@ -1,0 +1,36 @@
+.work {
+    padding-bottom: 158px;
+    &__bg {
+        position: relative;
+
+    }
+    &__bg-main {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+        max-width: 1039px;
+
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        
+        
+        margin-left: 600px;
+    
+    }
+    &__subtitle {
+        margin-top: 158px;
+        
+    }
+    &__title {
+        margin-bottom: 45px;
+    }
+    &__text {
+        margin-bottom: 29px;
+    }
+}
+
+

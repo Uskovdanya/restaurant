@@ -1,0 +1,93 @@
+.product {
+    padding: 97px 0 100px 0;
+    &__title {
+        margin-bottom: 59px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;  
+    }
+    &__item {
+        width: 370px;
+        height: 419px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+        border-radius: 50px 0px;
+    }
+    &__img {
+        border-radius: 50px 0px 0px 0px;
+        max-width: 370px;
+        height: auto;
+        width: 100%;
+    }
+    &__item-footer {
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 12px;
+        padding: 0 18px 50px 19px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between; 
+    }
+    &__item-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: $blackColor;
+    }
+    &__item-rate {
+        margin-top: 17px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        color: $blackColor;
+        svg {
+            margin-right: 5.28px;
+        }
+
+    }
+    &__button {
+        width: 104px;
+        height: 43px;
+        background: $accentColor;
+        border-radius: 50px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        color: #FFFFFF;
+        padding: 15px 19px 13px 19px;
+        border: 1.5px solid #F16214;
+        transition: 0.3s all ease;
+        &:hover {
+            background: $whiteColor;
+            outline: none;
+            color: $accentColor;
+    
+        }
+        &:active {
+            outline: none;
+        }
+        &:focus {
+            outline: none;
+
+        }
+    }
+    &__item-price {
+        margin-top: 4px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: $blackColor;
+        
+    }
+}
+

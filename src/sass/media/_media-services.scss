@@ -1,0 +1,59 @@
+@media screen and (max-width: $breakpoint1400) {
+    .services {
+        padding-bottom: 70px;
+
+    }
+}
+
+
+
+@media screen and (max-width: $breakpoint1200) {
+    .services {
+        
+        &__item {
+            padding: 40px 20px 42px 20px;
+        }
+    }
+}
+@media screen and (max-width: $breakpoint992) {
+    .services {
+        padding-bottom: 70px;
+
+        &__wrapper {
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        &__item {
+            width: 310px;
+        }
+    }
+}
+@media screen and (max-width: $breakpoint768) {
+    
+    .services {
+        padding-bottom: 50px;
+        &__title {
+            margin-bottom: 30px;
+        }
+        &__item {
+            padding: 70px 20px 72px 20px;
+            width: 370px;
+            height: 395px;
+        }
+    }
+}
+
+@media screen and (max-width: $breakpoint575) {
+    .services {
+        padding-bottom: 30px;
+        &__wrapper {
+            flex-direction: column;   
+        }
+        &__item {
+            width: 260px;
+            padding: 40px 20px 42px 20px;
+        }
+    }
+}
+
+    

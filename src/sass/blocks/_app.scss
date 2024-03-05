@@ -1,0 +1,92 @@
+.app {
+    
+    padding-top: 230px;
+    padding-bottom: 230px;
+    
+    &__wrapper {
+        /*margin-top: 230px;*/
+        position: relative;
+        
+        
+    }
+
+    
+    &__inner {
+        
+        background: url('../img/section5/background.png') center (center/cover) no-repeat;
+        margin: 0 auto;
+        width: 1169px;
+        height: 400px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 60px 0px;
+        padding: 86px 0 86px 29px;
+    }
+
+    &__title {
+        color: white;
+        margin-bottom: 50px;
+
+    }
+    &__social {
+        display: flex;
+        gap: 20px;
+
+    }
+
+    &__button {
+        display: flex;
+        gap: 14.88px;
+        align-items: center;
+        justify-content: center;
+   
+        width: 220px;
+        height: 80px;
+        background: #FFFFFF;
+        border-radius: 13px;
+
+    }
+
+    &__text {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        &_left {
+            margin-left: 4.69px;
+        }
+
+        color: #000000;
+        span {
+            display: block;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 13px;
+            color: #000000;
+        }
+        
+    }
+    &__screen-one {
+        display: block;
+        max-width: 277.09px;
+        height: auto;
+        width: 100%;
+        position: absolute;
+        top: -130px;
+        left: 560px;
+        
+        box-shadow: 20px 28px 90px -15px rgba(0, 0, 0, 0.2);
+        border-radius: 50px;
+    }
+    &__screen-two {
+        display: block;
+        max-width: 277.09px;
+        height: auto;
+        width: 100%;
+        top: -70px;
+        left: 877px;
+        position: absolute;
+        box-shadow: 9px 20px 90px -15px rgba(0, 0, 0, 0.15);
+        border-radius: 50px;
+    }
+}

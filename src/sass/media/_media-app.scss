@@ -1,0 +1,116 @@
+@media screen and (max-width: $breakpoint1400) {
+    .app {
+        padding-top: 170px;
+        padding-bottom: 170px;
+    }
+}
+
+@media screen and (max-width: $breakpoint1300) {
+    .app {
+        padding-top: 50px;
+        padding-bottom: 90px;
+        
+
+        &__wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 90px;
+
+            justify-content: center;
+            
+
+        }
+        &__screen-one {
+            position: unset;
+
+        }
+        &__screen-two {
+            position: unset;
+
+        }
+        &__inner {
+            margin: unset;
+            width: 870px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            padding: 86px 0 86px 0px;
+
+        }
+
+    }
+
+}
+@media screen and (max-width: $breakpoint1200) {
+    .app {
+        
+        
+
+        &__wrapper {
+            
+            
+
+            
+            
+
+        }
+        &__inner {
+            width: 770px;
+            
+        }
+        &__screen-one {
+            
+
+        }
+        &__screen-two {
+            
+
+        }
+        
+    }
+
+}
+@media screen and (max-width: $breakpoint992) {
+    .app {
+        padding-top: 30px;
+        padding-bottom: 60px;
+        &__social {
+            flex-direction: column;
+            
+
+        }
+        &__inner {
+            height: 470px;
+            padding: 70px 0 60px 0;
+            
+            
+        }
+    }
+
+}
+@media screen and (max-width: $breakpoint768) {
+    .app {
+        &__inner {
+            width: 600px;
+            
+            
+        }
+
+    }
+}
+@media screen and (max-width: $breakpoint575) {
+    .app {
+        &__inner {
+            width: 320px;
+            
+            
+        }
+        &__wrapper {
+            gap: 60px;
+
+        }
+
+    }
+}
+

@@ -1,0 +1,125 @@
+.footer {
+    padding: 100px 0 26px 0;
+    background: #F5F5F5;
+
+    &__wrap {
+        display: flex;
+        gap: 59px;
+        margin-bottom: 61px;
+    }
+    &__logo {
+        margin-bottom: 34px;
+    }
+
+    &__text-lh {
+        width: 270px;
+    }
+
+    &__social {
+        display: flex;
+        gap: 23px;
+    }
+
+    &__social-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        background: rgba(241, 98, 20, 0.15);
+        border-radius: 100%;
+        &:hover {
+            background: $accentColor;
+            path {
+                fill: $whiteColor;
+            }
+        }
+    }
+
+    &__lists {
+        display: flex;
+        gap: 83px;
+    }
+    &__lists-item {
+        &:nth-child(3) {
+            margin-left: 93px;
+
+        }
+    }
+    &__lists-title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 150%;
+        color: #000000;
+        margin-bottom: 36px;
+    }
+    &__list-item {
+        line-height: 200%;
+        a {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 200%;
+            color: #888888;
+        }
+    }
+    &__form-label {
+        margin-top: 20px;
+        position: relative;
+        width: 270px;
+        height: 50px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        display: flex;
+    }
+
+    &__input {
+        width: 100%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 150%;
+        color: #CCCCCC;
+        padding: 12px 94px 12px 19px;
+        border-radius: 10px;
+        outline: none;
+        &:focus {
+            outline: 1px solid $accentColor;
+        }
+    }
+
+    &__btn {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background: #F16214;
+        border-radius: 10px;
+        top: 5px;
+        right: 5px;
+        transition: 0.3s all ease;
+        &:hover {
+            background: $whiteColor;
+            /*color: $accentColor;*/
+            outline: none;
+            border: 0.5px solid $accentColor;
+            path {
+                fill: $accentColor;
+            }
+        }
+
+    }
+
+    &__copy {
+        border-top: 1.5px solid #DDDDDD;
+        padding-top: 23px;
+
+        text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 170%;
+        color: #888888;
+    }
+
+}

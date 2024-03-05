@@ -1,0 +1,23 @@
+@media screen and (max-width: $breakpoint1200) {
+    .product {
+        padding: 49px 0 60px 0;
+    }
+
+}
+
+@media screen and (max-width: $breakpoint992) {
+    .product {
+        padding: 20px 0 50px 0;
+        &__title {
+            margin-bottom: 30px;
+        }
+    }
+
+}
+@media screen and (max-width: $breakpoint575) {
+    .product {
+        padding: 20px 0 30px 0;
+
+    }
+}
+

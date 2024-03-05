@@ -1,0 +1,96 @@
+
+.homepage {
+    padding-top: 141px;
+    &__bg-main {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        width: 100%;
+        max-width: 1237px;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 75px;
+        line-height: 91px;
+        color: $blackColor;
+        width: 488px;
+    }
+    &__text {
+        margin-top: 15px;
+        width: 570px;
+        font-size: 16px;
+    }
+    &__button {
+        margin-top: 40px;
+    }
+    &__social {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 229px;
+    }
+    &__social-item {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background: rgba(241, 98, 20, 0.15);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        &:hover {
+            background: $accentColor;
+            path {
+                fill: $whiteColor;
+            }
+        }
+    }
+    &__contacts {
+        padding: 60px 133px 60px 87px;
+        width: 1170px;
+        height: 217px;
+        box-shadow: 0px 22px 52px rgba(0, 0, 0, 0.07);
+        border-radius: 60px 0px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 110px auto 0;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &:nth-child(2) {
+            width: 400px;
+            border-left: 1.5px solid #dddddd;
+            border-right: 1.5px solid #dddddd;
+        }
+    }
+    &__picture {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius:50%;
+        background: #F16214;
+    }
+    &__heading {
+        margin-top: 16px;
+        margin-bottom: 6px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #000000;
+    }
+    &__text-contacts {
+        font-size: 13px;
+    }
+}
+
+
+

@@ -1,0 +1,82 @@
+@media screen and (max-width: $breakpoint1300) {
+    .testimonials {
+        padding: 176px 0 78px 0;
+        
+
+    }
+
+}
+@media screen and (max-width: $breakpoint1200) {
+    .testimonials {
+        padding: 320px 0 78px 0;
+
+    }
+
+}
+@media screen and (max-width: $breakpoint992) {
+    .testimonials {
+        padding: 320px 0 78px 0;
+        
+        &__text {
+            margin-top: 25px;
+        }
+
+    }
+    .swiper {
+        height: 330px;
+        
+
+    }
+
+}
+
+
+
+
+@media screen and (max-width: $breakpoint768) {
+    .testimonials {
+        
+        &__forks {
+            max-width: 320px;
+        }
+
+        
+        &__wrapper {
+            padding: 0 20px;
+        }
+        
+        &__inner {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+        }
+    }
+    .swiper {
+        width: 440px;
+    }
+
+}
+
+@media screen and (max-width: $breakpoint575) {
+    .testimonials {
+        padding: 320px 0 35px 0;
+        &__forks {
+            max-width: 285px;
+        }
+    }
+    .swiper {
+        height: 375px;
+        width: 255px;
+
+    }
+    .swiper-button-prev, .swiper-button-next {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+
+
+

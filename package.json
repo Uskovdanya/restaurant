@@ -1,0 +1,17 @@
+{
+  "name": "restaurant",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+ 
+    "build": "browserify main.js -o bundle.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "sass": "^1.71.1",
+    "vite": "^5.1.4"
+  }
+}
