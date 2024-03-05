@@ -1,101 +1,94 @@
 .box {
-    padding: 100px 0;
-    &__box {
-        position: relative;
+  padding: 100px 0;
+  &__box {
+    position: relative;
+  }
+
+  &__burger {
+    position: absolute;
+    top: -100px;
+    left: 33px;
+    max-width: 460px;
+    height: auto;
+    width: 100%;
+  }
+  &__wrapper {
+    /*position: relative;*/
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+    padding: 51px 67px 51px 0;
+    border-radius: 60px 0px;
+    width: 1170px;
+    height: 300px;
+    background: url("../img/section7/background1.png") center (center/cover) no-repeat;
+
+    margin: 0 auto;
+  }
+  &__title {
+    color: white;
+    margin-bottom: 15px;
+  }
+  &__text {
+    width: 500px;
+    margin-bottom: 29px;
+  }
+  &__form-label {
+    width: 500px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 13px;
+    position: relative;
+    display: flex;
+  }
+  &__input {
+    width: 100%;
+    padding: 20px 140px 20px 19px;
+    border-radius: 13px;
+    outline: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 150%;
+    color: #cccccc;
+    &:focus {
+      outline: 1px solid $accentColor;
     }
-    
-    
-    
-    &__burger {
-        position: absolute;
-        top: -100px;
-        left: 33px;
-        max-width: 460px;
-        height: auto;
-        width: 100%;
-    }
-    &__wrapper {
-        /*position: relative;*/
-        display: flex;
-        flex-direction: column;
-        
-        align-items: flex-end;
-        padding: 51px 67px 51px 0;
-        border-radius: 60px 0px;
-        width: 1170px;
-        height: 300px;
-        background: url('../img/section7/bg.png') center (center/cover) no-repeat;
-        margin: 0 auto;
-    }
-    &__title {
-        color: white;
-        margin-bottom: 15px;
-    }
-    &__text {
-        width: 500px;
-        margin-bottom: 29px;
-        
-    }
-    &__form-label {
-        width: 500px;
-        height: 60px;
-        background: #FFFFFF;
-        border-radius: 13px;
-        position: relative;
-        display: flex;
-    }
-    &__input {
-        width: 100%;
-        padding: 20px 140px 20px 19px;
-        border-radius: 13px;
-        outline: none;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 13px;
-        line-height: 150%;
-        color: #CCCCCC;
-        &:focus {
-            outline: 1px solid $accentColor;
-        }
-    }
-    &__btn {
-        text-transform: uppercase;
-        position: absolute;
-        padding: 13px 22px;
-        width: 120px;
-        height: 50px;
+  }
+  &__btn {
+    text-transform: uppercase;
+    position: absolute;
+    padding: 13px 22px;
+    width: 120px;
+    height: 50px;
+    background: $accentColor;
+    border-radius: 13px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #ffffff;
+    right: 5px;
+    top: 5px;
+    transition: 0.3s all ease;
+    &:hover {
+      background: $whiteColor;
+      color: $accentColor;
+      outline: none;
+      border: 0.5px solid $accentColor;
+      span {
         background: $accentColor;
-        border-radius: 13px;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 150%;
-        color: #FFFFFF;
-        right: 5px;
-        top: 5px;
-        transition: 0.3s all ease;
-        &:hover {
-            background: $whiteColor;
-            color: $accentColor;
-            outline: none;
-            border: 0.5px solid $accentColor;
-            span {
-                background: $accentColor;
-                path {
-                    fill: $whiteColor;
-                }
-            }
-
+        path {
+          fill: $whiteColor;
         }
-        &:active {
-            outline: none;
-            
-        }
-        &:focus {
-            outline: none;
-
-        }
-
+      }
     }
+    &:active {
+      outline: none;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
 }
-
